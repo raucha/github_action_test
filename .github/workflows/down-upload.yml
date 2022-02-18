@@ -3,6 +3,7 @@ on: [push]
 
 jobs:
   upload-job:
+    runs-on: ubuntu-latest
     name: Save output
     steps:
       - shell: bash
@@ -14,6 +15,7 @@ jobs:
           name: output-log-file
           path: output.log
   download-job:
+    runs-on: ubuntu-latest
     steps:
       - name: Download a single artifact
         uses: actions/download-artifact@v2
