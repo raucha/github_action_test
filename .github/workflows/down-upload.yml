@@ -1,3 +1,6 @@
+name: Test Upload and Download
+on: [push]
+
 jobs:
   upload-job:
     name: Save output
