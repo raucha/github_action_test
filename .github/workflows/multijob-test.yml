@@ -2,6 +2,7 @@ name: Share data between jobs
 
 on: 
   - push
+  - cron: '*/5 * * * *'
 
 jobs:
   job_1:
