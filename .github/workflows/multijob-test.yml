@@ -1,6 +1,7 @@
 name: multi job
 
 on: 
+  push:
   schedule:
     - cron: '*/5 * * * *'
 
