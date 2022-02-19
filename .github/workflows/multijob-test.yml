@@ -1,4 +1,4 @@
-name: Share data between jobs
+name: multi job
 
 on: 
   - push
