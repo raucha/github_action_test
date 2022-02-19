@@ -1,7 +1,9 @@
 name: multi job
 
 on: 
-  - cron: '*/5 * * * *'
+  - push
+  - shedule:
+    - cron: '*/5 * * * *'
 
 jobs:
   job_1:
